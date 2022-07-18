@@ -1,1 +1,19 @@
-
+<html>
+<head>
+<script>
+function PasswordPrompt() {
+  let text = prompt("Password Here", "");
+  if (text == null || text == "") {
+    alert("User cancelled the prompt.");
+  } else {
+  if (text == "GET OUT") {
+  window.location.href = 'http://planetsat0rn.github.io/creepy';
+  }
+  }
+  }
+  </script>
+</head>
+<body>
+<button onclick="PasswordPrompt()">Got A Password?</button>
+</body>
+</html>
